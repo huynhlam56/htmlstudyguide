@@ -1,0 +1,69 @@
+body {
+    background-color: black; 
+    color: white;
+    font-family: garamond;
+}
+h1 {
+    color: pink;
+    font-size: 50px;
+}
+h3 {
+    color:#d9b3ff;
+    font-size: 25px;
+}
+div {
+    background: pink;
+    color: black;
+}
+span {
+    background: pink;
+    color: black;
+}
+.top-section {
+    background: white;
+}
+
+/* the CSS box model */ 
+/*
+    Margin: creates an invisble space around the box that nothing else can go into. You can have margins all around the box or you can put it only on one side. We would have to put "margin-top" 
+    Border: has 3 diff. properties-color, width, and style. We can have borders on all sides or one side only. Just make sure to specify where you want the border to be. 
+    Padding: Creating empty space with background color.
+*/
+.box{
+    background: pink;
+    width: 300px;
+    margin: 50px;
+    border-width: 5px;
+    border-color: white;
+    border-style: dotted;
+    /*shortcut*/
+    border: 5px dotted white; 
+    padding: 50px 25px;
+}
+.text {
+    background-image: url(../img/stars.jpeg);
+    /* we use "../" before putting in the img to tell the computer to go back a step and look for the img in a diff folder, otherwise the img has to be in the css if we don't add"../"
+    We also can choose the size and position of the backgeround img. The more padding you have, the more background you have.*/
+    width: 300px;
+    margin: 50px;
+    border: 5px white dotted;
+    padding: 50px;
+}
+h4.style {
+font-size: 20px;
+margin-top: 0px;
+}
+p.style{
+    line-height:1;
+    font-style: italic;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+a:hover {
+    color: pink;
+}
+a:active {
+    color: blue;
+}
